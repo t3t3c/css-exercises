@@ -1,0 +1,16 @@
+.red {
+    background-color: rgb(180, 43, 43);
+    font-size: small;
+    font-family: Verdana, DejaVu Sans, sans-serif;
+}
+#one {
+    color: rgb(43, 45, 180);
+    font-size: larger;
+}
+.red.cooler {
+    font-size: large;
+}
+#another {
+    background-color: #00ff00;
+    font-weight: bold;
+}
