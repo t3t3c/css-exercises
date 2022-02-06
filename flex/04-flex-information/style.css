@@ -7,10 +7,39 @@ img {
   height: 100px;
 }
 
+.all {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
 }
+
+.infographic {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.text {
+  width: 150px;
+  text-align: center;
+  
+}
+
+
 
 /* do not edit this footer */
 .footer {
