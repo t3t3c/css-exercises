@@ -15,7 +15,7 @@ html {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 1fr 6fr 1fr;
+  grid-template-rows: 1fr 1fr minmax(1px, 6fr) 1fr;
   gap: 15px;
 }
 
@@ -44,6 +44,7 @@ html {
 
 .article {
   background-color: #bccbde;
+  overflow: scroll;
 }
 
 .article p {
